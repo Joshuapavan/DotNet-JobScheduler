@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Models", "JobS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.UI", "JobScheduler.UI\JobScheduler.UI.csproj", "{BF6E50F1-851B-4D57-A4B1-F3C45192E795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Core", "JobScheduler.Core\JobScheduler.Core.csproj", "{F690AC09-A350-4BAA-9E16-16AEBD1F5026}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Engine", "JobScheduler.Core\JobScheduler.Engine.csproj", "{F690AC09-A350-4BAA-9E16-16AEBD1F5026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
