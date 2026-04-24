@@ -1,0 +1,17 @@
+# .NET Core
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
