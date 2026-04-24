@@ -1,4 +1,4 @@
-﻿namespace JobScheduler.UI.Tests;
+﻿namespace JobScheduler.API.Tests;
 
 [TestClass]
 public sealed class Test1
