@@ -79,4 +79,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **Phase 1-5**: Implement and learn data structures, build core scheduler features.
 - **Phase 6**: Integrate Hangfire for production-ready job processing.
 
-For questions or feedback, reach out to [your-email@example.com] or open an issue on GitHub.
+For questions or feedback, reach out to [joshuapavan35@gmail.com] or open an issue on GitHub.
