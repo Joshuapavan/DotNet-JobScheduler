@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utils/" />
+    <Folder Include="v2/" />
+    <Folder Include="v2/Implementations/" />
+    <Folder Include="v2/Interfaces/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../JobScheduler.Data/JobScheduler.Data.csproj" />
+    <ProjectReference Include="../JobScheduler.Models.Tests/JobScheduler.Models.Tests.csproj" />
+    <ProjectReference Include="../JobScheduler.Models/JobScheduler.Models.csproj" />
+  </ItemGroup>
+
+</Project>
