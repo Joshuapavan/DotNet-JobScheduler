@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Models", "JobScheduler.Models\JobScheduler.Models.csproj", "{43689729-E0DF-4409-B4B9-68DB78645777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Engine", "JobScheduler.Core\JobScheduler.Engine.csproj", "{F690AC09-A350-4BAA-9E16-16AEBD1F5026}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Engine", "JobScheduler.Engine\JobScheduler.Engine.csproj", "{F690AC09-A350-4BAA-9E16-16AEBD1F5026}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobScheduler.Engine.Tests", "JobScheduler.Engine.Tests\JobScheduler.Engine.Tests.csproj", "{D16754CC-FFCB-4794-948D-3B57568D132A}"
 EndProject
