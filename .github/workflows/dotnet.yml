@@ -26,3 +26,22 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+
+  security-scan:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3  # Pin to SHA: github/codeql-action/init@e2a9565e9cb2b6eb0557b2843e25b4b0a2ea1e456
+        with:
+          languages: csharp
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3  # Pin to SHA: github/codeql-action/autobuild@e2a9565e9cb2b6eb0557b2843e25b4b0a2ea1e456
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3  # Pin to SHA: github/codeql-action/analyze@e2a9565e9cb2b6eb0557b2843e25b4b0a2ea1e456
