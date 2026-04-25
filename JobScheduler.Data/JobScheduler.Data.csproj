@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DTO/RequestDTO/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../JobScheduler.Models/JobScheduler.Models.csproj" />
+  </ItemGroup>
+
 </Project>
